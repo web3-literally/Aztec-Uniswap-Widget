@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { ButtonPrimary } from 'components/Button'
 import { ColumnCenter } from 'components/Column'
 import QuestionHelper from 'components/QuestionHelper'

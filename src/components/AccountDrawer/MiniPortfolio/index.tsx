@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { Trace, TraceEvent } from '@uniswap/analytics'
 import { BrowserEvent, InterfaceElementName, InterfaceSectionName, SharedEventName } from '@uniswap/analytics-events'
 import Column from 'components/Column'

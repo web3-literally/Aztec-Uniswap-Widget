@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { InterfaceElementName } from '@uniswap/analytics-events'
 import walletBannerPhoneImageSrc from 'assets/images/wallet_banner_phone_image.png'
 import { ReactComponent as AppleLogo } from 'assets/svg/apple_logo.svg'

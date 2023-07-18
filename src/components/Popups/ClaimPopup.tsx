@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { CurrencyAmount, Token } from '@uniswap/sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { sendEvent } from 'components/analytics'

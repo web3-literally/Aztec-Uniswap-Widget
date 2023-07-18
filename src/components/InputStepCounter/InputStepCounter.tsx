@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { FeeAmount } from '@uniswap/v3-sdk'
 import { ButtonGray } from 'components/Button'
 import { OutlineCard } from 'components/Card'

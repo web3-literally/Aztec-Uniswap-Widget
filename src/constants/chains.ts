@@ -19,7 +19,8 @@ export const CHAIN_IDS_TO_NAMES = {
 } as const
 
 export function isSupportedChain(chainId: number | null | undefined | ChainId): chainId is SupportedChainsType {
-  return !!chainId && SUPPORTED_CHAINS.indexOf(chainId) !== -1
+  // return !!chainId && SUPPORTED_CHAINS.indexOf(chainId) !== -1
+  return chainId === ChainId.POLYGON
 }
 
 export function asSupportedChain(chainId: number | null | undefined | ChainId): SupportedChainsType | undefined {
@@ -101,10 +102,10 @@ export function getChainPriority(chainId: ChainId): number {
     case ChainId.MAINNET:
     case ChainId.GOERLI:
     case ChainId.SEPOLIA:
-      return 0
+      return 1
     case ChainId.POLYGON:
     case ChainId.POLYGON_MUMBAI:
-      return 1
+      return 0
     case ChainId.ARBITRUM_ONE:
     case ChainId.ARBITRUM_GOERLI:
       return 2

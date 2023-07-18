@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { NftStandard } from 'graphql/data/__generated__/types-and-hooks'
 import { useIsMobile } from 'nft/hooks'
 import { GenieAsset } from 'nft/types'

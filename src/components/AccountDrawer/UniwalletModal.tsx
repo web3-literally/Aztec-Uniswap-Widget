@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { sendAnalyticsEvent } from '@uniswap/analytics'
 import { InterfaceElementName } from '@uniswap/analytics-events'
 import { WalletConnect as WalletConnectv2 } from '@web3-react/walletconnect-v2'

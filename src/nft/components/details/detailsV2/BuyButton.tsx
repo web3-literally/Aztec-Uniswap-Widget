@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { formatNumber } from '@uniswap/conedison/format'
 import { ButtonPrimary } from 'components/Button'
 import Loader from 'components/Icons/LoadingSpinner'

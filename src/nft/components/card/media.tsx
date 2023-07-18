@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import Row from 'components/Row'
 import { getHeightFromAspectRatio, getMediaAspectRatio, handleUniformAspectRatio } from 'nft/components/card/utils'
 import { UniformAspectRatio, UniformAspectRatios } from 'nft/types'

@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import Column from 'components/Column'
 import Loader from 'components/Icons/LoadingSpinner'
 import Row from 'components/Row'

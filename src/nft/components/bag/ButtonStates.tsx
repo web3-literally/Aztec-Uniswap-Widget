@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { PriceImpact } from 'nft/hooks/usePriceImpact'
 import { ReactNode } from 'react'
 import { DefaultTheme } from 'styled-components/macro'

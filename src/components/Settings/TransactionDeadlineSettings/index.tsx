@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import Expand from 'components/Expand'
 import QuestionHelper from 'components/QuestionHelper'
 import Row from 'components/Row'

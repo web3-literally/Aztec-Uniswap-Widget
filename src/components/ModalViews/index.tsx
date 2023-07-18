@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { useWeb3React } from '@web3-react/core'
 import { ArrowUpCircle } from 'react-feather'
 import styled, { useTheme } from 'styled-components/macro'

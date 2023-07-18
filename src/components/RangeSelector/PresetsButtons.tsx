@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { ButtonOutlined } from 'components/Button'
 import { AutoRow } from 'components/Row'
 import styled from 'styled-components/macro'

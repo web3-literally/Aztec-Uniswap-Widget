@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import Row from 'components/Row'
 import { Trait } from 'nft/types'
 import styled from 'styled-components/macro'

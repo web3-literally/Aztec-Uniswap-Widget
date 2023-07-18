@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { Currency } from '@uniswap/sdk-core'
 import { ToggleElement, ToggleWrapper } from 'components/Toggle/MultiToggle'
 

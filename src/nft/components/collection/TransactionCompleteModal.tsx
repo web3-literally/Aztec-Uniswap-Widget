@@ -1,5 +1,5 @@
 import { formatEther } from '@ethersproject/units'
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { Trace, useTrace } from '@uniswap/analytics'
 import { InterfaceModalName, NFTEventName } from '@uniswap/analytics-events'
 import clsx from 'clsx'

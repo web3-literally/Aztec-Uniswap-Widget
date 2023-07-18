@@ -266,6 +266,8 @@ export function getChainInfo(chainId: any): any {
 }
 
 const MAINNET_INFO = CHAIN_INFO[ChainId.MAINNET]
+const POLYGON_INFO = CHAIN_INFO[ChainId.POLYGON]
+
 export function getChainInfoOrDefault(chainId: number | undefined) {
-  return getChainInfo(chainId) ?? MAINNET_INFO
+  return getChainInfo(chainId) ?? POLYGON_INFO
 }

@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { formatPriceImpact } from '@uniswap/conedison/format'
 import { Percent } from '@uniswap/sdk-core'
 import { ButtonEmphasis, ButtonSize, ThemeButton } from 'components/Button'

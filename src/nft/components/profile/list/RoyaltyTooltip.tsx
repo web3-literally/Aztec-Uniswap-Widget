@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import Column from 'components/Column'
 import Row from 'components/Row'
 import { getRoyalty } from 'nft/components/profile/list/utils'

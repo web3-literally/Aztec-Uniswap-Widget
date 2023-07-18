@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 // eslint-disable-next-line no-restricted-imports
 import { t } from '@lingui/macro'
 import { useWeb3React } from '@web3-react/core'

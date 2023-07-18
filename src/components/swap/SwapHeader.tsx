@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { Percent } from '@uniswap/sdk-core'
 import { useFiatOnRampButtonEnabled } from 'featureFlags/flags/fiatOnRampButton'
 import { InterfaceTrade } from 'state/routing/types'

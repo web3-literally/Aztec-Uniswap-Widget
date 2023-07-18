@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { Currency, CurrencyAmount, Fraction, Percent } from '@uniswap/sdk-core'
 import { Text } from 'rebass'
 

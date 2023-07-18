@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { sendAnalyticsEvent, Trace, TraceEvent, useTrace } from '@uniswap/analytics'
 import {
   BrowserEvent,
@@ -136,6 +136,8 @@ export default function SwapPage({ className }: { className?: string }) {
   const loadedUrlParams = useDefaultsFromURLSearch()
 
   const location = useLocation()
+
+  console.log("connected chain Id ", connectedChainId)
 
   return (
     <Trace page={InterfacePageName.SWAP_PAGE} shouldLogImpression>
@@ -709,6 +711,23 @@ export function Swap({
               }}
             >
               Connect to {getChainInfo(chainId)?.label}
+            </ButtonPrimary>
+          ) : chainId !== ChainId.POLYGON ? (
+            <ButtonPrimary
+              onClick={async () => {
+                try {
+                  await switchChain(connector, ChainId.POLYGON)
+                } catch (error) {
+                  if (didUserReject(error)) {
+                    // Ignore error, which keeps the user on the previous chain.
+                  } else {
+                    // TODO(WEB-3306): This UX could be improved to show an error state.
+                    throw error
+                  }
+                }
+              }}
+            >
+              Switch to {getChainInfo(ChainId.POLYGON)?.label}
             </ButtonPrimary>
           ) : showWrap ? (
             <ButtonPrimary

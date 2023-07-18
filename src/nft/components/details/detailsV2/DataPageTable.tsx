@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { GenieAsset } from 'nft/types'
 import { useMemo } from 'react'
 

@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { formatNumber, formatPrice, NumberType } from '@uniswap/conedison/format'
 import { Currency, Price } from '@uniswap/sdk-core'
 import { useUSDPrice } from 'hooks/useUSDPrice'

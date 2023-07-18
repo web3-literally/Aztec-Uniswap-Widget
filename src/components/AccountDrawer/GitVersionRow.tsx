@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import Tooltip from 'components/Tooltip'
 import useCopyClipboard from 'hooks/useCopyClipboard'
 import styled from 'styled-components/macro'

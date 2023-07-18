@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { ButtonGray, ButtonPrimary } from 'components/Button'
 import { HandHoldingDollarIcon } from 'nft/components/icons'
 import styled from 'styled-components/macro'

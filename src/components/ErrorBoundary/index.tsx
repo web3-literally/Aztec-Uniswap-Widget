@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import * as Sentry from '@sentry/react'
 import { useWeb3React } from '@web3-react/core'
 import { ButtonLight, SmallButtonPrimary } from 'components/Button'

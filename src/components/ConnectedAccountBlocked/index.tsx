@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import Column from 'components/Column'
 import { BlockedIcon } from 'components/TokenSafety/TokenSafetyIcon'
 import styled, { useTheme } from 'styled-components/macro'

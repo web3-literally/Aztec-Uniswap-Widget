@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { sendAnalyticsEvent, Trace, useTrace } from '@uniswap/analytics'
 import {
   InterfaceEventName,

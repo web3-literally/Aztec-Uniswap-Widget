@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import Row from 'components/Row'
 import Toggle from 'components/Toggle'
 import { useAtom } from 'jotai'

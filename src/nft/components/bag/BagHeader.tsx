@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { OpacityHoverState } from 'components/Common'
 import { BagCloseIcon } from 'nft/components/icons'
 import { useMemo } from 'react'

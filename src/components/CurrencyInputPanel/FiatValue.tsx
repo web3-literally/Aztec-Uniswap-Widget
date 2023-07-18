@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { formatNumber, formatPriceImpact, NumberType } from '@uniswap/conedison/format'
 import { Percent } from '@uniswap/sdk-core'
 import Row from 'components/Row'

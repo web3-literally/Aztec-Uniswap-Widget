@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import styled, { DefaultTheme } from 'styled-components/macro'
 
 import { ProposalState } from '../../state/governance/hooks'

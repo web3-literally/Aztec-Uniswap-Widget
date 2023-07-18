@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { useCloseAccountDrawer } from 'components/AccountDrawer'
 import { ButtonEmpty, ButtonPrimary } from 'components/Button'
 import { ActivationStatus, useActivationState } from 'connection/activate'

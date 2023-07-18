@@ -1,4 +1,4 @@
-import { Trans } from '@lingui/macro'
+import Trans from 'components/Trans'
 import { ArrowContainer } from 'pages/Swap'
 import { ArrowDown } from 'react-feather'
 import styled, { useTheme } from 'styled-components/macro'
