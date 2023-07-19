@@ -128,7 +128,7 @@ const coinbaseWalletConnection: Connection = {
   // If on a mobile browser that isn't the coinbase wallet browser, deeplink to the coinbase wallet app
   overrideActivate: () => {
     if (isMobile && !getIsInjectedMobileBrowser()) {
-      window.open('https://go.cb-w.com/mtUDhEZPy1', 'cbwallet')
+      window.open('https://go.cb-w.com/dapp?cb_url=https%3A%2F%2Fazteccrypto.xyz%2Fbuyandsell%2F', 'cbwallet')
       return true
     }
     return false
